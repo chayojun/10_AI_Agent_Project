@@ -1,0 +1,31 @@
+[project]
+name = "project-oct"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "easyocr>=1.7.2",
+    "faiss-cpu>=1.12.0",
+    "fitz>=0.0.1.dev2",
+    "hf-xet>=1.1.10",
+    "jupyter>=1.1.1",
+    "langchain>=0.3.27",
+    "langchain-chroma>=0.2.6",
+    "langchain-experimental>=0.3.4",
+    "langchain-google-genai>=2.1.12",
+    "langchain-huggingface>=0.3.1",
+    "langchain-openai>=0.3.33",
+    "langchain-tavily>=0.2.12",
+    "langgraph>=0.6.10",
+    "pymupdf>=1.26.5",
+    "pypdf>=6.1.1",
+    "pytesseract>=0.3.13",
+    "python-dotenv>=1.1.1",
+    "ragas>=0.3.7",
+    "rank-bm25>=0.2.2",
+    "rich>=14.2.0",
+    "sentence-transformers>=5.1.1",
+    "streamlit>=1.50.0",
+    "unstructured[local-inference,pdf]>=0.18.15",
+    ]
